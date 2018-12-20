@@ -58,7 +58,7 @@
 			<section id="about">
 				<p class="section-title">ABOUT ME</p>
 				<v-avatar class="avatar" :size="120">
-					<img src="../assets/images/profile_s.jpg" alt="avatar" />
+					<img src="~/assets/images/profile_s.jpg" alt="avatar" />
 				</v-avatar>
 				<div class="background">
 					<p class="content">
@@ -201,7 +201,7 @@ export default {
 
 <style lang="scss" scoped>
 #page-content {
-	background-image: url(../assets/images/background.jpg);
+	background-image: url(~/assets/images/background.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
