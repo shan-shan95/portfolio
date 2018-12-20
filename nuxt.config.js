@@ -1,5 +1,5 @@
 const routerBase =
-	process.env.DEPLOY_ENV === 'GH_PAGES'
+	process.env.DEPLOY_ENV === 'MASTER'
 		? {
 				router: {
 					base: '/portfolio/'
@@ -56,7 +56,5 @@ module.exports = {
 			error: '#b71c1c'
 		}
 	},
-	router: {
-		base: '/portfolio/'
-	}
+	...routerBase
 }
