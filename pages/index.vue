@@ -201,7 +201,7 @@ export default {
 
 <style lang="scss" scoped>
 #page-content {
-	background-image: url(~/assets/images/background.jpg);
+	background-image: url(../assets/images/background.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
