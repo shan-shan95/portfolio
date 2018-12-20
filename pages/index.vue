@@ -1,41 +1,45 @@
 <template>
 	<v-app id="inspire" dark>
-		<v-navigation-drawer v-model="drawer" clipped fixed app>
-			<v-list dense>
-				<v-list-tile>
-					<v-list-tile-content>
-						<v-list-tile-title></v-list-tile-title>
-					</v-list-tile-content>
-				</v-list-tile>
-				<v-list-tile>
-					<v-list-tile-content>
-						<v-list-tile-title></v-list-tile-title>
-					</v-list-tile-content>
-				</v-list-tile>
-				<v-list-tile href="#top">
-					<v-list-tile-content>
-						<v-list-tile-title>TOP</v-list-tile-title>
-					</v-list-tile-content>
-				</v-list-tile>
-				<v-list-tile href="#about">
-					<v-list-tile-content>
-						<v-list-tile-title>ABOUT ME</v-list-tile-title>
-					</v-list-tile-content>
-				</v-list-tile>
-				<v-list-tile href="#skill">
-					<v-list-tile-content>
-						<v-list-tile-title>SKILL</v-list-tile-title>
-					</v-list-tile-content>
-				</v-list-tile>
-				<v-list-tile href="#links">
-					<v-list-tile-content>
-						<v-list-tile-title>LINKS</v-list-tile-title>
-					</v-list-tile-content>
-				</v-list-tile>
-			</v-list>
-		</v-navigation-drawer>
+		<!--
+			<v-navigation-drawer v-model="drawer" clipped fixed app>
+				<v-list dense>
+					<v-list-tile>
+						<v-list-tile-content>
+							<v-list-tile-title></v-list-tile-title>
+						</v-list-tile-content>
+					</v-list-tile>
+					<v-list-tile>
+						<v-list-tile-content>
+							<v-list-tile-title></v-list-tile-title>
+						</v-list-tile-content>
+					</v-list-tile>
+					<v-list-tile href="#top">
+						<v-list-tile-content>
+							<v-list-tile-title>TOP</v-list-tile-title>
+						</v-list-tile-content>
+					</v-list-tile>
+					<v-list-tile href="#about">
+						<v-list-tile-content>
+							<v-list-tile-title>ABOUT ME</v-list-tile-title>
+						</v-list-tile-content>
+					</v-list-tile>
+					<v-list-tile href="#skill">
+						<v-list-tile-content>
+							<v-list-tile-title>SKILL</v-list-tile-title>
+						</v-list-tile-content>
+					</v-list-tile>
+					<v-list-tile href="#links">
+						<v-list-tile-content>
+							<v-list-tile-title>LINKS</v-list-tile-title>
+						</v-list-tile-content>
+					</v-list-tile>
+				</v-list>
+			</v-navigation-drawer>
+		-->
 		<v-toolbar fixed clipped-left>
-			<v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+			<!--
+				<v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+			-->
 			<v-toolbar-title>ShangShang.io</v-toolbar-title>
 		</v-toolbar>
 		<v-content id="page-content">
@@ -45,9 +49,11 @@
 						<p class="content">Hello World!</p>
 					</div>
 				</div>
-				<v-btn class="scroll-button" @click="$vuetify.goTo('#about')">
-					ABOUT ME
-				</v-btn>
+				<!--
+					<v-btn class="scroll-button" @click="$vuetify.goTo('#about')">
+						ABOUT ME
+					</v-btn>
+				-->
 			</section>
 			<section id="about">
 				<p class="section-title">ABOUT ME</p>
@@ -71,9 +77,11 @@
 						復学後はGPGPUを使用した粒子シミュレーションの高速化の研究に従事。<br />
 					</p>
 				</div>
-				<v-btn class="scroll-button" @click="$vuetify.goTo('#skill')">
-					SKILL
-				</v-btn>
+				<!--
+					<v-btn class="scroll-button" @click="$vuetify.goTo('#skill')">
+						SKILL
+					</v-btn>
+				-->
 			</section>
 			<section id="skill">
 				<p class="section-title">SKILL</p>
@@ -120,9 +128,11 @@
 						柔軟な新卒採用してる企業様お待ちしてます。<br />
 					</p>
 				</div>
-				<v-btn class="scroll-button" @click="$vuetify.goTo('#links')">
-					LINK
-				</v-btn>
+				<!--
+					<v-btn class="scroll-button" @click="$vuetify.goTo('#links')">
+						LINK
+					</v-btn>
+				-->
 			</section>
 			<section id="links">
 				<p class="section-title">LINKS</p>

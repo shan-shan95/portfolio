@@ -1,12 +1,3 @@
-const routerBase =
-	process.env.DEPLOY_ENV === 'MASTER'
-		? {
-				router: {
-					base: '/portfolio/'
-				}
-		  }
-		: {}
-
 module.exports = {
 	/*
 	 ** Headers of the page
@@ -55,6 +46,5 @@ module.exports = {
 			accent: '#8c9eff',
 			error: '#b71c1c'
 		}
-	},
-	...routerBase
+	}
 }
