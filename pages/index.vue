@@ -62,19 +62,19 @@
 				</v-avatar>
 				<div class="background">
 					<p class="content">
-						名前: 北山駿也<br />
-						趣味:
-						ランニング、料理、読書(小説から技術書まで)、シューティングゲーム(PS4)<br />
-						職業: 大学生(2019年3月卒業予定。4月からフリーランスエンジニア)<br />
+						ハンドルネーム: ShangShang<br />
+						職業: フリーランスエンジニア<br />
+						業務経験: 1年
 					</p>
 				</div>
 				<div class="background">
 					<p class="content">
 						大学4年次に、Webエンジニアのスキル習得のために1年休学をして上京。<br />
 						1ヶ月半でRailsを主とした勉強をしてプログラミングスクールのメンターになる。<br />
-						スキルアップのためにベンチャー企業で9ヶ月インターン(週5日フルタイム)を経験。<br />
+						スキルアップのためにベンチャー企業で8ヶ月インターン(週5日フルタイム)を経験。<br />
 						小規模チームでのアジャイル開発や、Dockerを利用したモダンな環境でバックエンドからフロントエンドまで開発に参加。<br />
-						復学後はGPGPUを使用した粒子シミュレーションの高速化の研究に従事。<br />
+						復学後はGPGPUを使用した粒子シミュレーションの高速化の研究に従事しつつ、ECアプリの新規開発をしていました。<br />
+						得意なのはサーバーサイドですが、フロントエンドもできます。<br />
 					</p>
 				</div>
 				<!--
@@ -88,8 +88,13 @@
 				<div class="background">
 					<p class="content">
 						サーバーサイド:
-						<v-chip color="red darken-1" text-color="white"> Rails </v-chip>
+						<v-chip color="red darken-1" text-color="white"> Rails </v-chip><br />
+						<v-chip color="green darken-1" text-color="white"> Nuxt.js </v-chip>
+						テストフレームワーク:
 						<v-chip color="red darken-1" text-color="white"> RSpec </v-chip
+						><br />
+						インフラ:
+						<v-chip color="green darken-1" text-color="white"> Docker </v-chip
 						><br />
 						フロントエンド:
 						<v-chip color="cyan darken-1" text-color="white"> HTML </v-chip>
@@ -99,17 +104,14 @@
 							JavaScript
 						</v-chip>
 						<v-chip color="green darken-1" text-color="white"> Vue.js </v-chip>
-						<v-chip color="green darken-1" text-color="white"> Nuxt.js </v-chip>
 						<v-chip color="light-blue darken-1" text-color="white">
-							React.js
+							Webpack
 						</v-chip>
-						<v-chip color="light-blue darken-1" text-color="white">
-							Redux </v-chip
-						><br />
+						<br />
 						データベース:
 						<v-chip color="indigo darken-1" text-color="white"> MySQL </v-chip>
 						<br />
-						興味あり:
+						チュートリアル程度なら経験あり:
 						<v-chip color="cyan lighten-1" text-color="white"> Go </v-chip>
 						<v-chip color="orange darken-2" text-color="white">
 							TypeScript
@@ -117,15 +119,20 @@
 						<v-chip color="deep-purple darken-4" text-color="white">
 							Elixir
 						</v-chip>
+						<v-chip color="light-blue darken-1" text-color="white">
+							React.js
+						</v-chip>
+						<v-chip color="light-blue darken-1" text-color="white">
+							Redux </v-chip
+						>
 						<br />
 					</p>
 				</div>
 				<div class="background">
 					<p class="content">
-						三重からのフルリモートが可能な案件のみ受けます。<br />
+						現在、三重からのフルリモートが可能な案件のみ受けつけています。<br />
 						興味ありの欄にある言語やフレームワークを使用する案件は、未経験でよろしければぜひお声がけください。<br />
 						2020年4月からは東京に移住したいと思っているので正社員で雇ってくださる企業を探してます。<br />
-						柔軟な新卒採用してる企業様お待ちしてます。<br />
 					</p>
 				</div>
 				<!--
