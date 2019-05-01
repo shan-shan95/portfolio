@@ -88,8 +88,8 @@
 				<div class="background">
 					<p class="content">
 						サーバーサイド:
-						<v-chip color="red darken-1" text-color="white"> Rails </v-chip><br />
-						<v-chip color="green darken-1" text-color="white"> Nuxt.js </v-chip>
+						<v-chip color="red darken-1" text-color="white"> Rails </v-chip>
+						<v-chip color="green darken-1" text-color="white"> Nuxt.js </v-chip><br />
 						テストフレームワーク:
 						<v-chip color="red darken-1" text-color="white"> RSpec </v-chip
 						><br />
@@ -191,7 +191,7 @@
 				</div>
 			</section>
 		</v-content>
-		<v-footer> <span>&copy; 2018 Shunya Kitayama</span> </v-footer>
+		<v-footer> <span>&copy; 2019 ShangShang</span> </v-footer>
 	</v-app>
 </template>
 
